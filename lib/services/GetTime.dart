@@ -9,7 +9,7 @@ Future <String> getTime(String location) async{
       Uri.parse("https://world-time-api3.p.rapidapi.com/timezone/$location"),
       headers: {
         'x-rapidapi-key': 'API_KEY',
-        'x-rapidapi-host': 'HOST'
+        'x-rapidapi-host': 'MY_HOST'
       }
     );
     Map times = jsonDecode(resp.body);
