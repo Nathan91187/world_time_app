@@ -33,7 +33,7 @@ class _ChooseLocationState extends State<ChooseLocation> {
       child: Column(
         children: [
           Padding(
-              padding: EdgeInsetsGeometry.fromLTRB(10, 10, 5, 10),
+              padding: EdgeInsets.fromLTRB(10, 10, 5, 10),
             child: Row(
               spacing: 5,
               children: [
